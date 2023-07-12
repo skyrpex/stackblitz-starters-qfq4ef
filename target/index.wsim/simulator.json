@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "type": "wingsdk.cloud.TestRunner",
+      "path": "root/cloud.TestRunner",
+      "props": {
+        "tests": {}
+      },
+      "attrs": {}
+    },
+    {
+      "type": "wingsdk.cloud.Bucket",
+      "path": "root/Default/cloud.Bucket",
+      "props": {
+        "public": false,
+        "initialObjects": {},
+        "topics": {}
+      },
+      "attrs": {}
+    }
+  ],
+  "sdkVersion": "0.24.11"
+}
